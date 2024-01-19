@@ -253,21 +253,17 @@ function gereListaEmbaralhada(inscritos, semente) {
 async function api(semente) {
   const turma = document.sorteio.nomeCurso.value;
   const response = await axios.get(`http://127.0.0.1:8000/${turma}&${semente}`);
-  //document.getElementById("teste").innerHTML = response.data.data;
-  //console.log(response.data.data[0].nome);
-  console.log("dentro da funci: ")
-  console.log(response);
   return response;
 }
 
-async function teste() {
+async function exec() {
   var semente;
   if (document.sorteio.sementeManual.checked) {
     semente = parseInt(document.sorteio.semente.value);
   } else {
     semente = new Date().getTime();
   }
-  let response_api = await trata(semente)
+  let response_api = await api(semente)
   imprimaResultado(
     document.sorteio.nomeCurso.value,
     semente,
@@ -277,16 +273,6 @@ async function teste() {
   );
 }
 
-async function trata(semente) {
-  try {
-    const response = await api(semente);
-    console.log("Sucesso: ", response);
-    return response
-  } catch (erro) {
-    console.error("Erro: ", erro);
-  }
-}
-
 function imprimaResultado(
   nomeCurso,
   semente,
@@ -294,16 +280,12 @@ function imprimaResultado(
   vagas,
   pontoImpressao
 ) {
-  console.log("Retornado: ")
-  console.log(embaralhada)
   var elemento1 = document.getElementById("campo");
   elemento1.style.visibility = "visible";
 
   var conteudo = "";
   conteudo += gereVisualDeCabecalhoDaLista(nomeCurso, semente);
   conteudo += gereVisualDeListaDeSelecionados(embaralhada, vagas);
-  /*conteudo += gereVisualDeCabecalhoDaEspera(nomeCurso);
-  conteudo += gereVisualDeListaDeEspera(embaralhada, vagas);*/
   conteudo += gereVisualDeFim();
   conteudo += gereVisualDeInformacoesTecnicas(semente);
   //pontoImpressao.value = conteudo;
@@ -326,47 +308,12 @@ function gereVisualDeCabecalhoDaLista(nomeCurso, semente) {
 function gereVisualDeListaDeSelecionados(lista, ultimaPosicao) {
   var conteudo = '<div class="card-body">';
   for (var i = 0; i < ultimaPosicao; i++) {
-    /*
-    conteudo +=
-      "<font size='6'><label><b>" +
-      lista[i] +
-      "</b>" +
-      padSpaces(lista[i], lista.length) +
-      "(" +
-      (i + 1) +
-      "º)</label></font>";*/
     conteudo += `<div class= "row"><div class="col-2">(${i + 1}º)</div><div class="col">${lista.data.data[i].nome}</div></div>`;
-
-    /*if (i < ultimaPosicao - 1) {
-      conteudo += "<br/>";
-    }*/
   }
   conteudo += "</div>";
   return conteudo;
 }
-/*
-function gereVisualDeCabecalhoDaEspera(nomeCurso) {
-  return "<H2>Lista de Espera - " + nomeCurso + "</H2>";
-}
 
-function gereVisualDeListaDeEspera(lista, ultimaPosicao) {
-  var conteudo = "";
-  for (var i = ultimaPosicao; i < lista.length; i++) {
-    conteudo +=
-      "<font size='5'><tt>" +
-      lista[i] +
-      padSpaces(lista[i], lista.length) +
-      "(" +
-      (parseInt(i) + 1) +
-      "º)</tt></font>";
-
-    if (i < lista.length - 1) {
-      conteudo += "<br/>";
-    }
-  }
-  return conteudo;
-}
-*/
 function gereVisualDeFim() {
   return "<br/><b>FIM.</b>";
 }
@@ -387,15 +334,3 @@ function gereVisualDeInformacoesTecnicas(semente) {
 function pad(number) {
   return (number < 10 ? "0" : "") + number;
 }
-
-/*
-function padSpaces(atual, maximo) {
-  var conteudo = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
-  var espacosExtras = (maximo + "").length - (atual + "").length;
-
-  for (var i = 1; i <= espacosExtras; i++) {
-    conteudo += "&nbsp;";
-  }
-
-  return conteudo;
-}*/
