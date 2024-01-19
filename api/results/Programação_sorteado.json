@@ -1,0 +1,138 @@
+{
+	"schema": {
+		"fields": [
+			{
+				"name": "nome",
+				"type": "string"
+			},
+			{
+				"name": "CPF",
+				"type": "integer"
+			}
+		],
+		"pandas_version": "1.4.0",
+		"semente": 1705693328368
+	},
+	"data": [
+		{
+			"nome": "Milena Lima",
+			"CPF": 44460363584
+		},
+		{
+			"nome": "Laura da Mota",
+			"CPF": 45447034355
+		},
+		{
+			"nome": "Vitor Araújo",
+			"CPF": 29339529670
+		},
+		{
+			"nome": "Camila Nascimento",
+			"CPF": 16233853379
+		},
+		{
+			"nome": "Pietra Fernandes",
+			"CPF": 69782177445
+		},
+		{
+			"nome": "Luiz Fernando Freitas",
+			"CPF": 48977562020
+		},
+		{
+			"nome": "Miguel Moura",
+			"CPF": 93348661626
+		},
+		{
+			"nome": "Murilo Campos",
+			"CPF": 17498416910
+		},
+		{
+			"nome": "Luiz Henrique Rocha",
+			"CPF": 4016204399
+		},
+		{
+			"nome": "Ana Lívia Gomes",
+			"CPF": 32167344664
+		},
+		{
+			"nome": "Lorena da Conceição",
+			"CPF": 37736387017
+		},
+		{
+			"nome": "Enzo Pereira",
+			"CPF": 84930810634
+		},
+		{
+			"nome": "Ana Laura Ribeiro",
+			"CPF": 71892581234
+		},
+		{
+			"nome": "Miguel Moraes",
+			"CPF": 71058545679
+		},
+		{
+			"nome": "Isadora Azevedo",
+			"CPF": 91966972218
+		},
+		{
+			"nome": "Maitê da Cunha",
+			"CPF": 65582904910
+		},
+		{
+			"nome": "Miguel Cavalcanti",
+			"CPF": 63085831986
+		},
+		{
+			"nome": "Davi Fernandes",
+			"CPF": 17819955811
+		},
+		{
+			"nome": "Ana Luiza Santos",
+			"CPF": 65444407627
+		},
+		{
+			"nome": "Sofia Moura",
+			"CPF": 68457566760
+		},
+		{
+			"nome": "Juan Castro",
+			"CPF": 30509912336
+		},
+		{
+			"nome": "Carlos Eduardo da Rosa",
+			"CPF": 82459054939
+		},
+		{
+			"nome": "Gustavo Melo",
+			"CPF": 23007805680
+		},
+		{
+			"nome": "Ana Vitória da Mota",
+			"CPF": 27183763496
+		},
+		{
+			"nome": "Anthony Novaes",
+			"CPF": 11696281037
+		},
+		{
+			"nome": "Maria Vitória Ferreira",
+			"CPF": 93143912277
+		},
+		{
+			"nome": "Alícia Silva",
+			"CPF": 51104911851
+		},
+		{
+			"nome": "Marina Silveira",
+			"CPF": 31642769703
+		},
+		{
+			"nome": "Pietra Fernandes",
+			"CPF": 69782177445
+		},
+		{
+			"nome": "Brenda Gonçalves",
+			"CPF": 62146465529
+		}
+	]
+}

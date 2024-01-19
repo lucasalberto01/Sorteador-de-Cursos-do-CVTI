@@ -1,0 +1,138 @@
+{
+	"schema": {
+		"fields": [
+			{
+				"name": "nome",
+				"type": "string"
+			},
+			{
+				"name": "CPF",
+				"type": "integer"
+			}
+		],
+		"pandas_version": "1.4.0",
+		"semente": 1705693311641
+	},
+	"data": [
+		{
+			"nome": "Raul Costa",
+			"CPF": 65190560485
+		},
+		{
+			"nome": "Murilo Correia",
+			"CPF": 49256750313
+		},
+		{
+			"nome": "Helena da Rosa",
+			"CPF": 23177173938
+		},
+		{
+			"nome": "Catarina da Mata",
+			"CPF": 39653359369
+		},
+		{
+			"nome": "Bruna Castro",
+			"CPF": 84431113822
+		},
+		{
+			"nome": "Eloah Peixoto",
+			"CPF": 29160059357
+		},
+		{
+			"nome": "Esther Barros",
+			"CPF": 17687423380
+		},
+		{
+			"nome": "Melissa da Costa",
+			"CPF": 98790405332
+		},
+		{
+			"nome": "Agatha Costela",
+			"CPF": 22563321003
+		},
+		{
+			"nome": "Elisa Nunes",
+			"CPF": 14284504732
+		},
+		{
+			"nome": "Raquel Oliveira",
+			"CPF": 20145467897
+		},
+		{
+			"nome": "Pedro Miguel Costela",
+			"CPF": 82937165745
+		},
+		{
+			"nome": "Pietra Costela",
+			"CPF": 41650669775
+		},
+		{
+			"nome": "Bruna Gonçalves",
+			"CPF": 34798388584
+		},
+		{
+			"nome": "Theo da Paz",
+			"CPF": 38820219275
+		},
+		{
+			"nome": "Luiza Nunes",
+			"CPF": 77640898347
+		},
+		{
+			"nome": "Ana Beatriz Nascimento",
+			"CPF": 31932159761
+		},
+		{
+			"nome": "Juan Aragão",
+			"CPF": 97794471799
+		},
+		{
+			"nome": "Pedro Lucas Porto",
+			"CPF": 18114210986
+		},
+		{
+			"nome": "Vitor Gabriel Moura",
+			"CPF": 20501747569
+		},
+		{
+			"nome": "Agatha Ribeiro",
+			"CPF": 73400081983
+		},
+		{
+			"nome": "Laura das Neves",
+			"CPF": 13989628084
+		},
+		{
+			"nome": "Nicole Santos",
+			"CPF": 72315096437
+		},
+		{
+			"nome": "Vicente da Cruz",
+			"CPF": 71142571539
+		},
+		{
+			"nome": "Raul Costa",
+			"CPF": 65190560485
+		},
+		{
+			"nome": "Luiz Gustavo Araújo",
+			"CPF": 38651452346
+		},
+		{
+			"nome": "Arthur das Neves",
+			"CPF": 35607733948
+		},
+		{
+			"nome": "Laura Jesus",
+			"CPF": 91767912959
+		},
+		{
+			"nome": "Kevin da Mata",
+			"CPF": 7377967646
+		},
+		{
+			"nome": "Catarina da Mata",
+			"CPF": 39653359369
+		}
+	]
+}

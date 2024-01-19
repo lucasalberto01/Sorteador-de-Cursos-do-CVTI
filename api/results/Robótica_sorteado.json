@@ -1,0 +1,138 @@
+{
+	"schema": {
+		"fields": [
+			{
+				"name": "nome",
+				"type": "string"
+			},
+			{
+				"name": "CPF",
+				"type": "integer"
+			}
+		],
+		"pandas_version": "1.4.0",
+		"semente": 1705693321605
+	},
+	"data": [
+		{
+			"nome": "Davi Lucas da Mata",
+			"CPF": 55312488801
+		},
+		{
+			"nome": "Rebeca Martins",
+			"CPF": 48959115228
+		},
+		{
+			"nome": "Renan Lopes",
+			"CPF": 43034628045
+		},
+		{
+			"nome": "Milena da Cunha",
+			"CPF": 7202170041
+		},
+		{
+			"nome": "Davi Lucas Melo",
+			"CPF": 14252534132
+		},
+		{
+			"nome": "Lívia Ribeiro",
+			"CPF": 483570596
+		},
+		{
+			"nome": "Maria Clara Nascimento",
+			"CPF": 79675007767
+		},
+		{
+			"nome": "Carolina Moreira",
+			"CPF": 19943923796
+		},
+		{
+			"nome": "Sabrina Melo",
+			"CPF": 54679024869
+		},
+		{
+			"nome": "Kaique Martins",
+			"CPF": 16070312417
+		},
+		{
+			"nome": "Renan Carvalho",
+			"CPF": 88073590886
+		},
+		{
+			"nome": "Noah Rocha",
+			"CPF": 4725442153
+		},
+		{
+			"nome": "Arthur da Luz",
+			"CPF": 30441227637
+		},
+		{
+			"nome": "Luigi Aragão",
+			"CPF": 12911346640
+		},
+		{
+			"nome": "Catarina Nunes",
+			"CPF": 57979907302
+		},
+		{
+			"nome": "Bianca Carvalho",
+			"CPF": 49795821850
+		},
+		{
+			"nome": "Pedro Lucas Gomes",
+			"CPF": 5629805980
+		},
+		{
+			"nome": "Julia Alves",
+			"CPF": 12889438983
+		},
+		{
+			"nome": "Heloísa Caldeira",
+			"CPF": 13855455366
+		},
+		{
+			"nome": "Luiz Gustavo Araújo",
+			"CPF": 3893752357
+		},
+		{
+			"nome": "Benjamin Moreira",
+			"CPF": 94328023684
+		},
+		{
+			"nome": "Cauã Gonçalves",
+			"CPF": 33376382075
+		},
+		{
+			"nome": "Clarice Santos",
+			"CPF": 91004162707
+		},
+		{
+			"nome": "Raquel da Luz",
+			"CPF": 46775902997
+		},
+		{
+			"nome": "Marcelo Freitas",
+			"CPF": 75819074041
+		},
+		{
+			"nome": "Lívia Peixoto",
+			"CPF": 58050630318
+		},
+		{
+			"nome": "Catarina Rodrigues",
+			"CPF": 38873199351
+		},
+		{
+			"nome": "Caio Costa",
+			"CPF": 20954205214
+		},
+		{
+			"nome": "Felipe Peixoto",
+			"CPF": 2170501536
+		},
+		{
+			"nome": "Lorenzo Mendes",
+			"CPF": 79419436572
+		}
+	]
+}
