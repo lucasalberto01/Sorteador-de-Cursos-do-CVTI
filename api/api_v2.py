@@ -10,7 +10,7 @@ import sorteador
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://127.0.0.1:5500","http://localhost:5500","file:///C:/Users/Usuario/Documents/Sketchs_Front/sample/meu_sorteio/index.html"],
+    allow_origins=["http://127.0.0.1:5501","http://localhost:5501","file:///C:/Users/Usuario/Documents/Sketchs_Front/sample/meu_sorteio/index.html","file:///C:/Users/Usuario/Documents/Sorteador Cvti/Sorteador-de-Cursos-do-CVTI/site/index.html"],
     allow_credentials=True,
     allow_methods=["*"],  # ou específicos como ["GET", "POST", "PUT", "DELETE"]
     allow_headers=["*"],  # ou específicos como ["Authorization", "Content-Type"]
@@ -30,14 +30,14 @@ async def main(turma:str,semente:int):
     sorteado_ppi, seed_ppi = sorteador.main(len(frame_cota),semente)
 
     for num in range(int(5)):
-        ppi_lista.append({'nome':frame_cota['nome'][sorteado_ppi[num]],'CPF':frame_cota['CPF'][sorteado_ppi[num]]})
+        ppi_lista.append({'nome':frame_cota['Nome'][sorteado_ppi[num]],'CPF':frame_cota['CPF'][sorteado_ppi[num]]})
 
     ppi_lista = pd.DataFrame(ppi_lista)
 
     for j in range(len(ppi_lista)):
         for i in range(len(frame_ampla)):
             try:
-                if frame_ampla['nome'][i] == ppi_lista['nome'][j]:
+                if frame_ampla['Nome'][i] == ppi_lista['Nome'][j]:
                     frame_ampla = frame_ampla.drop(i, axis=0)
             except KeyError:
                 pass
@@ -49,7 +49,7 @@ async def main(turma:str,semente:int):
     vaga = 25
     while i < vaga:
         try:
-            amp_lista.append({'nome':frame_ampla['nome'][sorteado_ampla[i]],'CPF':frame_ampla['CPF'][sorteado_ampla[i]]})
+            amp_lista.append({'nome':frame_ampla['Nome'][sorteado_ampla[i]],'CPF':frame_ampla['CPF'][sorteado_ampla[i]]})
         except KeyError:
             vaga+=1
             pass
