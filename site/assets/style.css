@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/*display: flex; flex-direction: column; justify-content: space-between; */
+:root{
+  --tam : 15%
+}
+
+.cabe {
+  background-color: #f1ae3a;
+  display: flex;
+  justify-content: center;
+}
+.photo{
+  align-self: center;
+  width: var(--tam);
+  height: var(--tam);
+}
+.foot {
+  background-color: #141344;
+  display: flex;
+  justify-content: center;
+}
+.element_foot{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.h-full {
+  height: 100vh;
+}
+
+.card-blur {
+  background-color: aliceblue !important;
+  backdrop-filter: blur(15px);
+}
