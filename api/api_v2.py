@@ -10,7 +10,7 @@ import sorteador
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://127.0.0.1:5501","http://localhost:5501","file:///C:/Users/Usuario/Documents/Sketchs_Front/sample/meu_sorteio/index.html","file:///C:/Users/Usuario/Documents/Sorteador Cvti/Sorteador-de-Cursos-do-CVTI/site/index.html"],
+    allow_origins=["http://127.0.0.1:5501","http://127.0.0.1:5501/site/index.html","http://localhost:5501","file:///C:/Users/Usuario/Documents/Sketchs_Front/sample/meu_sorteio/index.html","file:///C:/Users/Usuario/Documents/Sorteador-Cvti/Sorteador-de-Cursos-do-CVTI/site/index.html"],
     allow_credentials=True,
     allow_methods=["*"],  # ou específicos como ["GET", "POST", "PUT", "DELETE"]
     allow_headers=["*"],  # ou específicos como ["Authorization", "Content-Type"]
