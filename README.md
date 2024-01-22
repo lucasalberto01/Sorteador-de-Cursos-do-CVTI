@@ -8,11 +8,19 @@
 
 Um dos objetivos foi criar um visual personalizado que atendesse ao CVTI, ficando com um visual assim:
 
-adc foto
+<div align="center">
+  
+![image](https://github.com/jo4o0rn3ll4s/Sorteador-de-Cursos-do-CVTI/assets/65920201/285ffb22-736d-41b1-8374-743c825b4e47)
+
+</div>
 
 Quando preenchido e sorteado, a lista dos nomes aparece da seguinte forma:
 
-adc foto
+<div align="center">
+  
+![image](https://github.com/jo4o0rn3ll4s/Sorteador-de-Cursos-do-CVTI/assets/65920201/0a644ba2-0127-4ad1-8487-a08bea50642b)
+
+</div>
 
 Tais dados estão sendo passados para o front utilizando do `axios`(https://axios-http.com/ptbr/docs/intro), ferramenta responsavel para utilização de API's.
 ___
@@ -33,7 +41,11 @@ e a biblioteca padrão:
 
 Quando requisitado a API, ela devolve os dados da seguinte forma:
 
-adc foto
+<div align="center">
+  
+![image](https://github.com/jo4o0rn3ll4s/Sorteador-de-Cursos-do-CVTI/assets/65920201/a55effe6-1b97-4cea-8596-059c0cddea78)
+
+</div>
 
 (note que esta é a resposta que foi enviada quando o site apresentou o resultado acima do sorteio)
 \
@@ -47,5 +59,8 @@ Quando comecei tal projeto utilizei, para meus testes, poucos nomes, escrevi man
 \
 Por isso, fui atrás e encontrei o módulo `faker`(https://faker.readthedocs.io/en/master/). Tal módulo está sendo utilizado no programa `gerador.py`, onde com algumas pequenas alterações é possivel mudar o numero de arquivos que você deseja gerar, com quais nomes, e que dados deve conter. Dessa forma consegui fazer a base de dados com uma boa quantidade de numeros e em pouco tempo.
 
-adc foto
+<div align="center">
+  
+![image](https://github.com/jo4o0rn3ll4s/Sorteador-de-Cursos-do-CVTI/assets/65920201/91844a4e-578e-48ec-b51b-7604219f7d6c)
 
+</div>
