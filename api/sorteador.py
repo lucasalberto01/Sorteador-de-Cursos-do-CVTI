@@ -29,8 +29,9 @@ def lisEmba(inscritos, seed = 0):
 
     return resultado,seed[1] if sai else seed
 
-def main(num_de_inscr, seed = 0):
+def read(num_de_inscr, seed = 0):
     lista,semente = lisEmba(num_de_inscr, seed)
+    
     for i in range (len(lista)):
         lista[i] = lista[i]-1
     return lista, semente

@@ -11,128 +11,128 @@
 			}
 		],
 		"pandas_version": "1.4.0",
-		"semente": 1706666686131
+		"semente": 1706714669521
 	},
 	"data": [
 		{
-			"nome": "Henrique Correia",
-			"CPF": 54892236722
-		},
-		{
-			"nome": "Bruna Castro",
-			"CPF": 84431113822
-		},
-		{
-			"nome": "Kevin Rezende",
-			"CPF": 68479422417
-		},
-		{
-			"nome": "Clara Fernandes",
-			"CPF": 13318441342
-		},
-		{
-			"nome": "Larissa Viana",
-			"CPF": 78731817900
-		},
-		{
-			"nome": "Kevin da Mata",
-			"CPF": 7377967646
-		},
-		{
-			"nome": "Pedro Lucas Porto",
-			"CPF": 18114210986
-		},
-		{
-			"nome": "Theo da Paz",
-			"CPF": 38820219275
-		},
-		{
-			"nome": "Juan Aragão",
-			"CPF": 97794471799
-		},
-		{
-			"nome": "Laura das Neves",
-			"CPF": 13989628084
-		},
-		{
-			"nome": "Fernando Nogueira",
-			"CPF": 766166714
-		},
-		{
-			"nome": "Laura Jesus",
-			"CPF": 91767912959
-		},
-		{
-			"nome": "Marcos Vinicius Lopes",
-			"CPF": 72651517973
-		},
-		{
-			"nome": "Bruno da Cruz",
-			"CPF": 48443096954
-		},
-		{
-			"nome": "Murilo Correia",
-			"CPF": 49256750313
-		},
-		{
-			"nome": "Clara Aragão",
-			"CPF": 93830590415
-		},
-		{
-			"nome": "Agatha Ribeiro",
-			"CPF": 73400081983
-		},
-		{
-			"nome": "Pedro Miguel Costela",
-			"CPF": 82937165745
-		},
-		{
-			"nome": "Clara Fernandes",
-			"CPF": 13318441342
+			"nome": "Davi Lucca Correia",
+			"CPF": 69983689361
 		},
 		{
 			"nome": "Manuela Moreira",
 			"CPF": 96606883114
 		},
 		{
+			"nome": "André da Cunha",
+			"CPF": 88245347989
+		},
+		{
+			"nome": "Henrique Correia",
+			"CPF": 54892236722
+		},
+		{
+			"nome": "Murilo Correia",
+			"CPF": 49256750313
+		},
+		{
+			"nome": "Bruna Castro",
+			"CPF": 84431113822
+		},
+		{
+			"nome": "Henrique Correia",
+			"CPF": 54892236722
+		},
+		{
+			"nome": "Gustavo Fernandes",
+			"CPF": 94335443561
+		},
+		{
+			"nome": "Kevin da Mata",
+			"CPF": 7377967646
+		},
+		{
+			"nome": "Maria Cecília Martins",
+			"CPF": 17676733615
+		},
+		{
+			"nome": "Bruno da Conceição",
+			"CPF": 6599822057
+		},
+		{
+			"nome": "Luiz Fernando Sales",
+			"CPF": 40580905964
+		},
+		{
+			"nome": "Clara Fernandes",
+			"CPF": 13318441342
+		},
+		{
+			"nome": "Vinicius Silva",
+			"CPF": 84029858303
+		},
+		{
+			"nome": "Gabrielly Nascimento",
+			"CPF": 68691157046
+		},
+		{
+			"nome": "Cauã Ribeiro",
+			"CPF": 21490949201
+		},
+		{
+			"nome": "Leonardo Souza",
+			"CPF": 8476455236
+		},
+		{
+			"nome": "Nicole Rezende",
+			"CPF": 83295886492
+		},
+		{
+			"nome": "André da Cunha",
+			"CPF": 88245347989
+		},
+		{
+			"nome": "Kevin Rezende",
+			"CPF": 68479422417
+		},
+		{
+			"nome": "Isabel da Conceição",
+			"CPF": 99676748948
+		},
+		{
+			"nome": "Larissa Viana",
+			"CPF": 78731817900
+		},
+		{
+			"nome": "Enzo Gabriel Barros",
+			"CPF": 36986246238
+		},
+		{
+			"nome": "Daniel Lima",
+			"CPF": 6376339932
+		},
+		{
+			"nome": "Rafael Rocha",
+			"CPF": 41813995838
+		},
+		{
 			"nome": "João Gabriel Barros",
 			"CPF": 657250084
 		},
 		{
-			"nome": "Alice Ribeiro",
-			"CPF": 79434859146
+			"nome": "Guilherme Silva",
+			"CPF": 75682314946
 		},
 		{
 			"nome": "Eloah Aragão",
 			"CPF": 18351743991
 		},
 		{
-			"nome": "Pedro Moura",
-			"CPF": 95711867488
+			"nome": "Melissa da Cunha",
+			"CPF": 65920470007
 		},
 		{
-			"nome": "Luiza da Mata",
-			"CPF": 2729393337
-		},
-		{
-			"nome": "Luigi Nogueira",
-			"CPF": 72896634921
-		},
-		{
-			"nome": "Luiz Henrique Novaes",
-			"CPF": 17732651611
-		},
-		{
-			"nome": "Raul Costa",
-			"CPF": 65190560485
-		},
-		{
-			"nome": "Ana Vitória Duarte",
-			"CPF": 57725292088
-		},
-		{
-			"nome": "Gabrielly Nascimento",
-			"CPF": 68691157046
+			"nome": "Maria Cecília Fernandes",
+			"CPF": 62105245423
 		}
 	]
 }

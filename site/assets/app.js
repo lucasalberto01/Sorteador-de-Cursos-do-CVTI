@@ -252,7 +252,7 @@ function gereListaEmbaralhada(inscritos, semente) {
 
 async function api(semente) {
   const turma = document.sorteio.nomeCurso.value;
-  const response = await axios.get(`http://127.0.0.1:8000/${turma}&${semente}`);
+  const response = await axios.get(`/${turma}&${semente}`);
   return response;
 }
 
@@ -263,14 +263,21 @@ async function exec() {
   } else {
     semente = new Date().getTime();
   }
-  let response_api = await api(semente)
-  imprimaResultado(
-    document.sorteio.nomeCurso.value,
-    semente,
-    response_api,
-    30,
-    document.getElementById("resultado")
-  );
+  await api(semente)
+    .then((response) => {
+      imprimaResultado(
+        document.sorteio.nomeCurso.value,
+        semente,
+        response,
+        30,
+        document.getElementById("resultado")
+      );
+    })
+    .catch((error) => {
+      if (error.response.status == 404) {
+        alert("Turma não encontrada");
+      }
+    });
 }
 
 function imprimaResultado(
@@ -308,7 +315,9 @@ function gereVisualDeCabecalhoDaLista(nomeCurso, semente) {
 function gereVisualDeListaDeSelecionados(lista, ultimaPosicao) {
   var conteudo = '<div class="card-body">';
   for (var i = 0; i < ultimaPosicao; i++) {
-    conteudo += `<div class= "row"><div class="col-2">(${i + 1}º)</div><div class="col">${lista.data.data[i].nome}</div></div>`;
+    conteudo += `<div class= "row"><div class="col-2">(${
+      i + 1
+    }º)</div><div class="col">${lista.data.data[i].nome}</div></div>`;
   }
   conteudo += "</div>";
   return conteudo;
